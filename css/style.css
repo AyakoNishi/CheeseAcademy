@@ -1,0 +1,273 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*  トップ 画像 */
+.top_title{
+	height: 400px;
+	background: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+/* トップ	 文字装飾 */
+.title_text{
+	text-align: center;
+	color: white;
+	font-style: italic;
+}
+.title_h1{
+	font-size: 48px;
+	padding-top: 100px;
+}
+.title_p{
+	font-size: 36px;
+}
+
+/* HEDDER */
+.page-header{
+	display: flex;
+	justify-content: space-between;
+	font-size: 21px;
+	height: 80px;
+	border: 1px #efefef solid;
+}
+.navi{
+	display: flex;
+	list-style: none;
+	justify-content: right;
+}
+.nav_box{
+	padding-left: 20px;
+	padding-top: 18px;
+	padding-right: 20px;
+}
+
+/* ABOUT */
+.about{
+	margin-top: 120px;
+	margin-bottom: 80px;
+}
+.about_h2{
+	color: #ffd61a;
+	font-size: 24px;
+}
+.about_h3{
+	margin-top: 24px;
+	margin-bottom: 64px;
+}
+.about_p{
+	margin-top: 40px;
+}
+
+/* IMAGE */
+img.img_list{
+	width: 100%;
+}
+
+/* COURSE */
+.course{
+	margin-top: 64px;
+	margin-bottom: 64px;
+}
+.course p{
+	margin-top: 20px;
+}
+.course_box{
+	display: flex;
+}
+.course_box h2{
+	color: #222222;
+	font-size: 24px;
+}
+.box_text{
+	width: 50%;
+	display: flex;
+  justify-content: center;
+	align-items: center;
+}
+.box_text p{
+	margin-top: 40px;
+}
+.box_text_box{
+	margin-left: 48px;
+	text-align: left;
+}
+.box_img{
+  width: 50%;
+}
+img.box_img_img{
+	width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* NEWS */
+.news_box{
+	margin-top: 64px;
+}
+.news_h2{
+	color: #ffd61a;
+	font-size: 24px;
+	margin-top: 64px;
+}
+.news_boxs{
+	display: flex;
+	align-items: center;
+	margin-top: 64px;
+	width: 50%;
+}
+.news_box_box{
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 32px;
+}
+
+.more_box{
+	display: flex;
+	justify-content: center;
+}
+.more_button{
+	font-size: 21px;
+	color: white;
+	background-color: #ffd61a;
+	width: 300px;
+	height: 60px;
+}
+
+
+/* ACCESS */
+.access{
+	background-color: #fafafa;
+	margin-top: 48px;
+}
+.access_h2{
+	padding-top: 64px;
+}
+.access_title{
+	margin-top: 24px;
+	margin-bottom: 64px;
+}
+.access_point{
+	margin-top: 64px;
+	margin-bottom: 80px;
+
+}
+.access_point p{
+	margin-top: 24px;
+}
+.access_number{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.tel_number{
+	margin-left: 48px;
+}
+
+/* CONTACT */
+.contact{
+	margin-top: 64px;
+}
+.contact h3{
+	margin-top: 24px;
+	margin-bottom: 64px;
+}
+.contact_p{
+	margin-bottom: 120px;
+}
+.contact_p2{
+	margin-top: 32px;
+}
+
+.form input{
+	width: 328px;
+	height: 36px;
+}
+
+.inputs{
+	margin-bottom: 40px;
+}
+.form_check{
+	padding-top:80; 
+}
+.checkb_a{
+	padding: 40px;
+}
+/*.check_box{
+	display: flex;
+	flex-direction: column;
+}*/
+
+input[type="text"],
+input[type="email"],
+textarea {
+	border: 1px #bfbfbf solid;
+	width: 328px;
+	height: 36px;
+}
+.form_text textarea{
+	width: 328px;
+	height: 108px;
+}
+.form_text{
+	margin-top: 32px;
+}
+
+.submit_button{
+	font-size: 18px;
+	background-color: #ffd61a;
+	width: 298px;
+	height: 54px;
+	color: white;
+	margin-top: 40px;
+}
+
+/* TOP BUTTON */
+.top_button{
+	background-color:#707070;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: flex-end;
+}
+.top_button_text{
+	color: white;
+	display: flex;
+	justify-content: flex-end;
+}
+.top_button p{
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* FOOTER */
+footer{
+	background-color:#707070;
+	color: white;
+	font-size: 18px;
+}
+footer p{
+	padding: 32px;
+}
