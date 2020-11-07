@@ -1,5 +1,7 @@
 # チーズアカデミーのwebサイト
 
+デプロイ先：https://ayakonishi.github.io/CheeseAcademy/
+
 ## プロダクトの紹介
 - チーズアカデミーのwebサイト
 - 学校の紹介やアクセス
